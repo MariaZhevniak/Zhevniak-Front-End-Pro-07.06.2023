@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+    <form action="#" id = 'orderForm' autocomplete="off">
+      <label for="userName">Your Name:</label><br>
+        <input type="text" id="userName" name = "userName"><br><br>
+  
+        <label for="city">Your City</label><br>
+        <select id="city" name = "city">
+          <option value="Odesa">Odesa</option>
+          <option value="Dnipro">Dnipro</option>
+          <option value="Kyiv">Kyiv</option>
+          <option value="Lviv">Lviv</option>
+        </select><br><br>
+  
+        <label for="novaPoshta">Nova Poshta Warehouse:</label><br>
+        <input type="text" id="novaPoshta" name = "novaPoshta"><br><br>
+  
+        <label for="paymentMethod">Payment Method:</label><br>
+        <input type="radio" id="cashOnDelivery" name="paymentMethod" value="cashOnDelivery">
+        <label for="cashOnDelivery">Cash on Delivery</label><br>
+        <input type="radio" id="creditCard" name="paymentMethod" value="creditCard">
+        <label for="creditCard">Credit Card</label><br><br>
+  
+        <label for="quantity">Quantity:</label><br>
+        <input type="number" id="quantity" name = "quantity" min = '1'><br><br>
+  
+        <label for="comment">Comment:</label><br>
+        <textarea id="comment" name = "comment"></textarea><br><br>
+  
+        <button type="submit" class ='submit__button'>Submit Order</button>
+    </form>
+  <script src="/js/script.js"></script>
+</body>
+
+</html>
