@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="form__container">
+    <form action="#" id = 'userForm' autocomplete="off">
+      <label for="userFirstName">First Name:</label><br>
+        <input type="text" id="userFirstName" name = "userFirstName"><br><br>
+
+        <label for="userLastName">Last Name:</label><br>
+        <input type="text" id="userLastName" name = "userLastName"><br><br>
+
+        <label for="userBirthDate">Birth Date:</label><br>
+        <input type="text" id="userBirthDate" name = "userBirthDate"><br><br>
+
+        <label for="userGender">Your Gender:</label><br>
+          <input type="radio" id="maleGender" name="gender" value="Male">Male<br>
+          <input type="radio" id="femaleGender"  name="gender" value="Female">Female<br>
+  
+        <label for="city">Your City:</label><br>
+        <select id="city" name = "city">
+          <option value="Odesa">Odesa</option>
+          <option value="Dnipro">Dnipro</option>
+          <option value="Kyiv">Kyiv</option>
+          <option value="Lviv">Lviv</option>
+        </select><br>
+  
+        <label for="adress">Your Adress:</label><br>
+        <textarea id="adress" name = "adress"></textarea><br>
+
+        <label for="language">Languages:</label><br>
+        <input type="checkbox" name="languages" value="Ukrainian">Ukrainian<br>
+        <input type="checkbox" name="languages" value="English">English<br>
+        <input type="checkbox" name="languages" value="German">German<br>
+
+        <button type="submit" class ='submit__button'>Save</button>
+    </form>
+  </div>
+
+  <script src="/js/script.js"></script>
+</body>
+
+</html>
